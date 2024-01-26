@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(circle at 50% 50%, #69349f 0, #4c2191 25%, #240c82 50%, #000073 75%, #000067 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left-login{
+
+
+    width: 50vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h1-titulo{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+ 
+
+}
+
+.strong-login{
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 48, 48, 0.753);
+    
+
+}
+
+.right-login{
+    width: 50vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background:#d1151536;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #6d0c0c56; ;
+
+}
+
+.h1-login {
+    order: -1; /* Moves the h1 element to the top */
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+}
+
+.textfield{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.h1-novo-cliente{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+}
+
